@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body {
+    padding: 0;
+    background-color: #130a30;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header img {
+    width: 8%;
+    float: left;
+    margin-top: 2% !important;
+    margin-left: 5%;
+}
+
+#header button {
+    cursor: pointer;
+    float: right;
+    color: #2a2245;
+    background-color: transparent;
+    border: 0px solid #2a2245;
+    margin-right: 5%;
+    margin-top: 2%;
+    font-size: 15px;
+}
+
+#body1 .image {
+    margin-top: -0.5%;
+    margin-left: 22%;
+}
+
+#body1 img {
+    margin-top: 8%;
+    align-content: center;
+    margin-left: 36%;
+}
+
+#body1 p b {
+    color: aliceblue;
+    font-size: 40px;
+    margin-left: 39.5%;
+}
+
+#body1 #subtitle {
+    color: #423b59;
+    margin-left: 48%;
+}
+
+#body1 #subtitle1 {
+    color: #423b59;
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+#footer .linker-text {
+    display: inline-flex;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.linker-text li a img {
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+}
+
+#footer .dsgn {
+    float: right;
+    margin-right: 5%;
+    color: #fff;
+    margin-top: 5%;
+    font-size: 12px;
+}
+
+#footer .dsgn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* responsive design starts here */
+
+@media only screen and (max-width: 600px) {
+    body {
+        overflow: hidden;
+    }
+    #header img {
+        width: 35%;
+    }
+    #header button {
+        font-size: 25px;
+        float: right;
+        margin-right: -84% !important;
+    }
+    #body1 {
+        width: 160%;
+    }
+    #body1 img {
+        margin-top: 50% !important;
+        margin-left: 33%;
+    }
+    #body1 p b {
+        margin-left: 32%;
+    }
+    #body1 #subtitle {
+        margin-left: 57%;
+    }
+    #body1 .image {
+        margin-top: 10% !important;
+        margin-left: -1%;
+        width: 120%;
+    }
+    #body1 #subtitle1 {
+        margin-left: 33%;
+    }
+    #footer .linker-text {
+        margin-top: 90%;
+    }
+    #footer .dsgn {
+        float: right;
+        margin-right: -84% !important;
+        margin-top: 90%;
+        font-size: 15px;
+    }
+}
